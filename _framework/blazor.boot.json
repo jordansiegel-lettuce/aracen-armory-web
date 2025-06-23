@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ArcaneArmoryWeb",
   "resources": {
-    "hash": "sha256-CY8ubYM9m1YOggLzbFOgl2P7AmL7TVBQ63uHRNIi5y8=",
+    "hash": "sha256-x43IDFLG/hXLjH1mqzgoYEAd5MYU+NsnjACEgBJyc6E=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-3HZ52x+8yne6v3PFF0PCuJ0GMsv8fAp3sXAOwLYGZQk="
     },
@@ -56,7 +56,7 @@
       "System.Text.RegularExpressions.wasm": "sha256-AkSH4mcOFV8CWRu6UM2gpadizku8DYYnaV3Ry2cN2y0=",
       "System.wasm": "sha256-ovI9fLxLRfh4RwNCi87t4luRVFfNap5GiBEwY0eh3bc=",
       "System.Private.CoreLib.wasm": "sha256-80TzZTT+2CGRsQ/PU+Y6M1qfjAzajNGXs1qCJmOOMhA=",
-      "ArcaneArmoryWeb.wasm": "sha256-4kpa+QyerAofNhjVQPOi7dOTx6QaluBxcS2yuvJKst8="
+      "ArcaneArmoryWeb.wasm": "sha256-RVTmMbEe5xUwe3vC9YL1XrH/Dwnd8DNdG0RZkJ5b9H4="
     }
   },
   "cacheBootResources": true,
