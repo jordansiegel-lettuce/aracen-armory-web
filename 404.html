@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // Force redirect to root with original path as fragment
-      var redirectPath = window.location.pathname.replace('/arcane-armory-web', '');
-      location.href = "/arcane-armory-web/#" + redirectPath;
+      // GitHub Pages 404 fallback: redirect to root + preserve path
+      var path = location.pathname.replace('/arcane-armory-web', '');
+      location.replace('/arcane-armory-web/index.html?redirect=' + encodeURIComponent(path));
     </script>
   </head>
   <body>
-    <p>Redirecting to Arcane Armory Web...</p>
+    <p>Redirecting...</p>
   </body>
 </html>
