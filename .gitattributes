@@ -1,3 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*binary
+# Force Git to track framework files as binary and include them
+_framework/** filter=blob -text
+*.js binary
+*.wasm binary
+*.br binary
+*.dat binary
+*.dll binary
