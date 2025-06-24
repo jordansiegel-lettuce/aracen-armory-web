@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // GitHub Pages 404 fallback: redirect to root + preserve path
-      var path = location.pathname.replace('/arcane-armory-web', '');
-      location.replace('/arcane-armory-web/index.html?redirect=' + encodeURIComponent(path));
+      const relativePath = location.pathname.replace('/arcane-armory-web', '');
+      location.replace('/arcane-armory-web/index.html?redirect=' + encodeURIComponent(relativePath));
     </script>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>Redirecting to app...</p>
   </body>
 </html>
