@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/arcane-armory-web/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Force redirect to root with original path as fragment
+      var redirectPath = window.location.pathname.replace('/arcane-armory-web', '');
+      location.href = "/arcane-armory-web/#" + redirectPath;
+    </script>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>Redirecting to Arcane Armory Web...</p>
   </body>
 </html>
